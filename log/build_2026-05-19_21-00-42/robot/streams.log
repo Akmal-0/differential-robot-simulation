@@ -1,0 +1,5 @@
+[0.009s] Invoking command in '/home/akmal/Documents/robot_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akmal/Documents/robot_ws/build/robot -- -j20 -l20
+[0.024s] [0mCMake Error: The source directory "/home/akmal/Documents/robot_ws/src/robot" does not appear to contain CMakeLists.txt.
+[0.025s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.026s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.028s] Invoked command in '/home/akmal/Documents/robot_ws/build/robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akmal/Documents/robot_ws/build/robot -- -j20 -l20

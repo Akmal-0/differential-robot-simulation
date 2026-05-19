@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/akmal/Documents/robot_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akmal/Documents/robot_ws/build/robot -- -j20 -l20
+[0.046s] Invoked command in '/home/akmal/Documents/robot_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akmal/Documents/robot_ws/build/robot -- -j20 -l20
+[0.058s] Invoking command in '/home/akmal/Documents/robot_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akmal/Documents/robot_ws/build/robot
+[0.067s] -- Install configuration: ""
+[0.068s] -- Execute custom install script
+[0.068s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[0.068s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[0.068s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+[0.068s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+[0.068s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/path.sh
+[0.069s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/path.dsv
+[0.069s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.bash
+[0.069s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.sh
+[0.069s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.zsh
+[0.069s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.dsv
+[0.069s] -- Symlinking: /home/akmal/Documents/robot_ws/install/robot/share/robot/package.dsv
+[0.080s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/ament_index/resource_index/packages/robot
+[0.080s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/cmake/robotConfig.cmake
+[0.080s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+[0.080s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/package.xml
+[0.081s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/launch/display.launch
+[0.081s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/launch/gazebo.launch
+[0.081s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/launch/robot_launch.py
+[0.081s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot (Copy).urdf
+[0.081s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot.csv
+[0.081s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot.urdf
+[0.082s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot_1.urdf
+[0.082s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/base.STL
+[0.082s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/free_wheel.STL
+[0.082s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/left_wheel.STL
+[0.082s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/right_wheel.STL
+[0.082s] -- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/config/gz_bridge.yaml
+[0.085s] Invoked command in '/home/akmal/Documents/robot_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akmal/Documents/robot_ws/build/robot

@@ -1,0 +1,31 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/lib/robot/odom_to_path.py
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/launch/display.launch
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/launch/gazebo.launch
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/launch/robot_launch.py
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot (Copy).urdf
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot.csv
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot.urdf
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/urdf/robot_1.urdf
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/base.STL
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/free_wheel.STL
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/left_wheel.STL
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/meshes/right_wheel.STL
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/config/gz_bridge.yaml
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/scripts/odom_to_path.py
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/path.sh
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/environment/path.dsv
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.bash
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.sh
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.zsh
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/local_setup.dsv
+-- Symlinking: /home/akmal/Documents/robot_ws/install/robot/share/robot/package.dsv
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/ament_index/resource_index/packages/robot
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/cmake/robotConfig.cmake
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+-- Up-to-date symlink: /home/akmal/Documents/robot_ws/install/robot/share/robot/package.xml

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter -->
+<robot name="robot">
+
+  <!-- ==================== BASE LINK ==================== -->
+  <link name="base">
+    <inertial>
+      <origin xyz="-0.00965481457320272 0.0111120747049655 0.005" rpy="0 0 0" />
+      <mass value="0.197321172139232" />
+      <inertia
+        ixx="0.000254464488119407"
+        ixy="5.7773136475039E-08"
+        ixz="-2.4030438420844E-07"
+        iyy="0.000348452218851022"
+        iyz="-4.09032412681973E-05"
+        izz="0.000146305796028143" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/base.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/base.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ==================== LEFT WHEEL ==================== -->
+  <link name="Left Wheel">
+    <inertial>
+      <origin xyz="0.015634 3.4368E-10 -7.9793E-11" rpy="0 0 0" />
+      <mass value="0.30171" />
+      <inertia
+        ixx="0.00021617"
+        ixy="-1.8513E-13"
+        ixz="8.6051E-15"
+        iyy="0.00011754"
+        iyz="-8.418E-14"
+        izz="0.00011754" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/left_wheel.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/left_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="left_wheel" type="continuous">
+    <origin xyz="-0.061096 -0.051666 0.00018021" rpy="-2.2886 0 3.1416" />
+    <parent link="base" />
+    <child link="Left Wheel" />
+    <axis xyz="1 0 0" />
+  </joint>
+
+  <!-- ==================== RIGHT WHEEL ==================== -->
+  <link name="Right Wheel">
+    <inertial>
+      <origin xyz="0.015634 1.0186E-10 -2.1241E-11" rpy="0 0 0" />
+      <mass value="0.30171" />
+      <inertia
+        ixx="0.00021617"
+        ixy="6.8231E-14"
+        ixz="-9.3068E-15"
+        iyy="0.00011754"
+        iyz="-3.8625E-13"
+        izz="0.00011754" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/right_wheel.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.65098 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/right_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="right_wheel" type="continuous">
+    <origin xyz="0.041879 -0.051666 0.00018021" rpy="0.95996 0 0" />
+    <parent link="base" />
+    <child link="Right Wheel" />
+    <axis xyz="-1 0 0" />
+  </joint>
+
+  <!-- ==================== FREE WHEEL ==================== -->
+  <link name="Free Wheel">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia
+        ixx="0.0001"
+        ixy="0"
+        ixz="0"
+        iyy="0.0001"
+        iyz="0"
+        izz="0.0001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/free_wheel.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://robot/meshes/free_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="free_wheel" type="continuous">
+    <origin xyz="-0.00945839046097954 0.0740844223621159 -0.0106197918296602" rpy="1.5707963267949 0 0" />
+    <parent link="base" />
+    <child link="Free Wheel" />
+    <axis xyz="0 1 0" />
+  </joint>
+
+  <!-- ==================== IMU LINK ==================== -->
+  <link name="imu_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.01 0.01 0.01" />
+      </geometry>
+      <material name="blue">
+        <color rgba="0 0 1 1" />
+      </material>
+    </visual>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <origin xyz="0 0 0.02" rpy="0 0 0" />
+    <parent link="base" />
+    <child link="imu_link" />
+  </joint>
+
+  <!-- ==================== GAZEBO FRICTION & CONTACT ==================== -->
+
+  <gazebo reference="Left Wheel">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+  </gazebo>
+
+  <gazebo reference="Right Wheel">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+  </gazebo>
+
+  <gazebo reference="Free Wheel">
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+  </gazebo>
+
+  <!-- ==================== GAZEBO PLUGINS ==================== -->
+
+  <!-- IMU Sensor Plugin -->
+  <gazebo reference="imu_link">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <topic>/imu</topic>
+      <gz_frame_id>imu_link</gz_frame_id>
+      <imu>
+        <angular_velocity>
+          <x><noise type="gaussian"><mean>0</mean><stddev>0.009</stddev></noise></x>
+          <y><noise type="gaussian"><mean>0</mean><stddev>0.009</stddev></noise></y>
+          <z><noise type="gaussian"><mean>0</mean><stddev>0.009</stddev></noise></z>
+        </angular_velocity>
+        <linear_acceleration>
+          <x><noise type="gaussian"><mean>0</mean><stddev>0.021</stddev></noise></x>
+          <y><noise type="gaussian"><mean>0</mean><stddev>0.021</stddev></noise></y>
+          <z><noise type="gaussian"><mean>0</mean><stddev>0.021</stddev></noise></z>
+        </linear_acceleration>
+      </imu>
+    </sensor>
+  </gazebo>
+
+  <!-- Differential Drive Plugin -->
+  <gazebo>
+    <plugin filename="gz-sim-diff-drive-system"
+            name="gz::sim::systems::DiffDrive">
+      <left_joint>left_wheel</left_joint>
+      <right_joint>right_wheel</right_joint>
+      <wheel_separation>0.102975</wheel_separation>
+      <wheel_radius>0.03</wheel_radius>
+      <odom_publish_frequency>50</odom_publish_frequency>
+      <topic>/cmd_vel</topic>
+      <odom_topic>/odom</odom_topic>
+      <tf_topic>/tf</tf_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base</child_frame_id>
+      <publish_odom_tf>true</publish_odom_tf>
+    </plugin>
+  </gazebo>
+
+  <!-- Joint State Publisher Plugin -->
+  <gazebo>
+    <plugin filename="gz-sim-joint-state-publisher-system"
+            name="gz::sim::systems::JointStatePublisher">
+      <topic>/joint_states</topic>
+    </plugin>
+  </gazebo>
+
+</robot>
