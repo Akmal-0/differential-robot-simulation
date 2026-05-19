@@ -19,8 +19,8 @@ Simple differential drive robot simulation using ROS 2, Gazebo, and RViz2.
 ## Create Workspace
 
 ```bash
-mkdir -p ~/robot_ws/src
-cd ~/robot_ws/src
+mkdir -p ~/robot_ws
+cd ~/robot_ws
 ```
 
 ## Clone Repository
