@@ -65,3 +65,23 @@ ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angul
 * URDF robot model
 * `/cmd_vel` velocity control
 * Keyboard teleoperation support
+
+# Result
+
+Preview
+
+<p align="center">
+  <img src="asset/Robot.png" width="700">
+</p>
+
+RViz2
+
+<p align="center">
+  <img src="asset/Rviz.png" width="700">
+</p>
+
+Gazebo
+
+<p align="center">
+  <img src="asset/Gazebo.png" width="700">
+</p>
