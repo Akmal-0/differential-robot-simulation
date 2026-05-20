@@ -50,6 +50,7 @@ source install/setup.bash
 ros2 launch robot robot_launch.py
 ```
 
+Open in another terminal :
 ```bash
 ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z: 0.3}}"
 ```
