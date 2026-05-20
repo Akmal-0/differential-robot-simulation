@@ -68,20 +68,20 @@ ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angul
 
 # Result
 
-Preview
+## Preview
 
 <p align="center">
-  <img src="asset/Robot.png" width="700">
+  <img src="src/robot/assets/Robot.png" width="700">
 </p>
 
-RViz2
+## RViz2
 
 <p align="center">
-  <img src="asset/Rviz.png" width="700">
+  <img src="src/robot/assets/Rviz.png" width="700">
 </p>
 
-Gazebo
+## Gazebo
 
 <p align="center">
-  <img src="asset/Gazebo.png" width="700">
+  <img src="src/robot/assets/Gazebo.png" width="700">
 </p>
